@@ -1,0 +1,3 @@
+[submodule "mdpress"]
+	path = mdpress
+	url = https://github.com/egonSchiele/mdpress.git
