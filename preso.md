@@ -3,33 +3,33 @@
 <img src="gsoc-2012-logo-color.jpg" alt="gsoc 2012" width="80%" />
 
 ---
-= id="this-is-not" data-x="-1000" data-y="1200" data-scale="1"
-<div class="big bold whats">What this isn't</div>
+= id="this-is-not" class="big bold whats" data-x="-1000" data-y="1200" data-scale="1"
+What this isn't
 
 ---
-= data-x="-1000" data-y="1400"
-<div style="font-size: 140px">Am I eligibile?</div>
+= style="font-size: 140px" data-x="-1000" data-y="1400"
+Am I eligibile?
 
 ---
-= data-x="-1000" data-y="1600"
-<div style="font-size: 80px">How much will I be paid?</div>
+= style="font-size: 80px" data-x="-1000" data-y="1600"
+How much will I be paid?
 
 ---
-= data-x="-1000" data-y="1800"
-<div style="font-size: 70px">Which organization should I choose?</div>
+= style="font-size: 70px" data-x="-1000" data-y="1800"
+Which organization should I choose?
 
 ---
-= data-x="-1000" data-y="2200"
-<div class="big bold title">RTFM</div>
+= class="big bold title" data-x="-1000" data-y="2200"
+RTFM
 
 <!-- next -->
 ---
-= id="this-is" data-x="0" data-y="1200" data-scale="1"
-<div class="big bold whats">What this is</div>
+= class="big bold whats" id="this-is" data-x="0" data-y="1200" data-scale="1"
+What this is
 
 ---
-= data-x="0" data-y="1400"
-<div style="font-size: 120px">what to expect</div>
+= style="font-size: 120px" data-x="0" data-y="1400"
+what to expect
 
 ---
 = data-x="0" data-y="1600"
@@ -38,8 +38,8 @@
 
 <!-- next -->
 ---
-= data-x="1000" data-y="1200"
-<div class="big bold whats">Crash course</div>
+= class="big bold whats" data-x="1000" data-y="1200"
+Crash course
 
 ---
 = data-x="1000" data-y="1600"
@@ -52,24 +52,24 @@
 <div style="margin-top: 10px; font-size: 60px">GSoC ≡ paid work on OSS</div>
 
 ---
-= data-x="1000" data-y="2200"
-<div class="extralight">see the logic?</div>
+= class="extralight" data-x="1000" data-y="2200"
+see the logic?
 
 ---
-= data-x="1000" data-y="2600"
-<div class="big bold" style="font-size: 80px">what you need to do</div>
+= class="big bold" style="font-size: 80px" data-x="1000" data-y="2600"
+what you need to do
 
 ---
-= data-x="1000" data-y="2800"
-<div class="todo">1. find organization</div>
+= class="todo" data-x="1000" data-y="2800"
+1. find organization
 
 ---
-= data-x="1000" data-y="2900"
-<div class="todo">2. project proposal</div>
+= class="todo" data-x="1000" data-y="2900"
+2. project proposal
 
 ---
-= data-x="1000" data-y="3000"
-<div class="light" style="font-style: italic">not necessarily in this order.</div>
+= class="light" style="font-style: italic" data-x="1000" data-y="3000"
+not necessarily in this order.
 
 ---
 = data-x="1000" data-y="2200"
