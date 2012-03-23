@@ -87,3 +87,26 @@ wrong question!
 ---
 = data-x="1000" data-y="4400"
 How many students can the organization support?
+
+<!-- next -->
+---
+= class="big bold whats" data-x="2000" data-y="600" data-rotate="-90"
+My GSOC
+
+
+<!-- next -->
+---
+= id="shoutouts" class="big bold whats" data-x="2000" data-y="-200" data-rotate="-90"
+Shoutouts
+
+---
+= data-x="2400" data-y="-200" data-rotate="-90"
+<img src="umit-logo.png" />
+
+---
+= data-x="2800" data-y="-200" data-rotate="-90"
+<img src="opensuse-logo.png" />
+
+---
+= data-x="3200" data-y="-200" data-rotate="-90"
+<img src="openwall-logo.png" />
