@@ -1,0 +1,97 @@
+html { overflow: hidden; }
+body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; background: #bee8f4; }
+
+.background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
+	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
+	z-index: 0;
+    opacity: 1;
+}
+
+#hint {
+    z-index: 9999;
+    position: fixed; top: 0; left: 20px;
+    font-size: 16px;
+    background: #ddd;
+    color: #666;
+    padding: 6px 12px 12px;
+    font-style: italic;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+    
+    -webkit-transition: opacity 2s;
+    -moz-transition:    opacity 2s;
+    -ms-transition:     opacity 2s;
+    -o-transition:      opacity 2s;
+    transition:         opacity 2s;
+    
+    -webkit-transition-delay: 6s;
+    -moz-transition-delay: 6s;
+    -ms-transition-delay: 6s;
+    -o-transition-delay: 6s;
+    transition-delay: 6s;
+}
+
+#hint a { text-decoration: underline; font-style: italic; }
+
+#hint:hover {
+    opacity: 1;
+    -webkit-transition: opacity .25s;
+    -moz-transition:    opacity .25s;
+    -ms-transition:     opacity .25s;
+    -o-transition:      opacity .25s;
+    transition:         opacity .25s;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    font-style: normal;
+    color: #666;
+    cursor: pointer;
+}
+a:hover { color: #333;}
+
+.title { font-size: 275px; }
+.big { text-transform: uppercase; margin: 0; padding: 0; }
+.bold { font-weight: 800; }
+.light { font-weight: 400; }
+.extralight { font-weight: 300; letter-spacing: .1em; }
+.small { display: block; padding: 20px; font-size: 20px; font-weight: 600; }
+
+/* COMMON STEP STYLES */
+
+.step {
+    text-align: center;
+    width: 1000px;
+    padding: 20px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+    
+    text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
+}
+
+.step:not(.active) { opacity: 0.1; }
+
+/* STEP SPECIFIC STYLES */
+.whats { font-size: 110px; }
+.todo { font-size: 70px; }
+
+#credits { width: 1200px; padding: 0; }
+#credits .big { font-size: 150px; }
+#credits p { font-style: italic; font-size: 30px; margin: 24px; padding: 0; color: #666; }
+#credits p.first { margin-bottom: 45px; font-size: 40px; }
+#credits a { font-style: italic; font-weight: bold; text-decoration: underline; }
+
