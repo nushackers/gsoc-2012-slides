@@ -171,3 +171,11 @@ Shoutouts
 ---
 = data-x="3200" data-y="-200" data-rotate="-90"
 <img src="openwall-logo.png" />
+
+---
+= id="credits" data-x="3600" data-y="-200" data-rotate="-90" data-rotate-y="60" data-scale="5"
+
+<div class="big bold">Credits</div>
+<p class="first">an <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation</p>
+<p>Styles based on <a href="https://github.com/johnpolacek/WhatTheHeckIsResponsiveWebDesign-impressjs">What The Heck Is Responsive Web Design</a> by <a href="http://twitter.com/johnpolacek">John Polacek</a>
+<p><a href="http://bartaz.github.com/impress.js/">impress.js</a> created by <a href="http://bartaz.github.com/">Bartek Szopka</a></p>
