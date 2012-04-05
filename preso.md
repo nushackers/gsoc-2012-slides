@@ -88,11 +88,72 @@ wrong question!
 = data-x="1000" data-y="4400"
 How many students can the organization support?
 
+---
+= class="big bold" style="font-size: 80px" data-x="1000" data-y="4800"
+a strong proposal
+
+---
+= data-x="1000" data-y="5000"
+sufficient scope/workload
+
+---
+= class="big bold" style="font-size: 94px" data-x="1000" data-y="5200"
+feasible
+
+---
+= data-x="1000" data-y="5250"
+within your capabilities
+
+---
+= data-x="1000" data-y="5500"
+timeline
+
+---
+= data-x="1000" data-y="5600"
+not exact dates
+
+---
+= data-x="1000" data-y="5700"
+deliverables (code) at each stage
+
 <!-- next -->
 ---
-= class="big bold whats" data-x="2000" data-y="600" data-rotate="-90"
+= id="my-gsoc" class="big bold whats" data-x="2000" data-y="600" data-rotate="-90"
 My GSOC
 
+---
+= class="big bold whats" data-x="2400" data-y="600" data-rotate="-90"
+<img src="git-logo.png" />
+
+---
+= class="big bold whats" data-x="2500" data-y="600" data-rotate="-90"
+CGit vs JGit
+
+---
+= data-x="2600" data-y="600" data-rotate="-90"
+Histogram diff
+
+
+---
+= data-x="2700" data-y="600" data-rotate="-90"
+interesting: malloc()'s take time!
+malloc()'s one huge chunk, give it out
+
+---
+= data-x="2800" data-y="600" data-rotate="-90"
+interesting: line hashes are linearized
+adding a O(n^2)
+
+---
+= data-x="2900" data-y="600" data-rotate="-90"
+interesting: fixed an O(m*n) ~ O(n^2) bottleneck
+7s on a bad-ass xml file
+
+---
+= data-x="3000" data-y="600" data-rotate="-90"
+conclusion: all code merged, though performance
+room for more work
+i suspect diff printing ("emit")
 
 <!-- next -->
 ---
